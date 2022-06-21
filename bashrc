@@ -116,3 +116,5 @@ fi
 alias vpn1-connect="echo "61184" | sudo openconnect -b c1.kmak.us:443 --user km1649364 --passwd-on-std"
 alias vpn2-connect="echo "61184" | sudo openconnect -b c2.kmak.us:443 --user km1649364 --passwd-on-std"
 alias vpn3-connect="echo "61184" | sudo openconnect -b c3.kmak.us:443 --user km1649364 --passwd-on-std"
+
+alias emacsclient="emacsclient -c"

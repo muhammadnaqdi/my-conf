@@ -251,6 +251,7 @@ myStartupHook = do
 	setDefaultCursor xC_left_ptr
 	spawnOnce "nitrogen --restore &"
 	spawnOnce "picom -f &"
+	spawnOnce "emacs --daemon &"
 
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
