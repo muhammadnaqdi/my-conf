@@ -2,15 +2,15 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#1e2127"
+    background_color = "#282c34"
     background_darkness = 0.85
     background_type = transparent
     cursor_color = "#676c76"
     font = Source Code Pro 11
-    foreground_color = "#abb2bf"
+    foreground_color = "#bbc2cf"
     show_titlebar = False
     scrollbar_position = hidden
-    palette = "#000000:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#abb2bf:#5c6370:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#fffefe"
+    palette = "#1b2229:#ff6c6b:#98be65:#ecbe7b:#51afef:#c678dd:#46d9ff:#dfdfdf:#54595e:#ff9090:#b1ce8b:#f0ce9c:#7cc3f3:#d499e5:#74e2ff:#e7e7e7"
     use_system_font = False
 [layouts]
   [[default]]

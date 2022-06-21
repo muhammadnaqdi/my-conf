@@ -52,13 +52,13 @@
   ;; Corrects (and improves) org-mode's native fontification.
   (doom-themes-org-config))
 
-(use-package centaur-tabs
-  :demand
-  :config
-  (centaur-tabs-mode t)
-  :bind
-  ("C-<prior>" . centaur-tabs-backward)
-  ("C-<next>" . centaur-tabs-forward))
+;;(use-package centaur-tabs
+;;  :demand
+;;  :config
+;;  (centaur-tabs-mode t)
+;;  :bind
+;;  ("C-<prior>" . centaur-tabs-backward)
+;;  ("C-<next>" . centaur-tabs-forward))
 
 (setq geiser-mit-binary "/usr/bin/scheme")
 (setq geiser-active-implementations '(mit))
