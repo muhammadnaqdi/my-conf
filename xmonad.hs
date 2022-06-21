@@ -63,8 +63,12 @@ myFocusedBorderColor = "#d4d4d4"
 --
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
 
-    -- launch a terminal
-    [ ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
+    [
+    -- lunch a terminal
+    ((modm .|. shiftMask,   xK_t     ), spawn $ XMonad.terminal conf)
+
+    -- launch Emacs
+    , ((modm .|. shiftMask, xK_Return), spawn "emacsclient -cq")
 
     -- launch dmenu
     , ((modm,               xK_p     ), spawn "dmenu_run")
@@ -259,7 +263,7 @@ myStartupHook = do
 -- Run xmonad with the settings you specify. No need to modify this.
 --
 main = do
-	xmproc <- spawnPipe "xmobar -x 0"
+--	xmproc <- spawnPipe "xmobar -x 0"
 	xmonad $ docks defaults
 
 -- A structure containing your configuration settings, overriding
