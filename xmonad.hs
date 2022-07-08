@@ -254,7 +254,7 @@ myLogHook = return ()
 myStartupHook = do
 	setDefaultCursor xC_left_ptr
 	spawnOnce "nitrogen --restore &"
-	spawnOnce "picom -f &"
+--	spawnOnce "picom -f &"
 	spawnOnce "emacs --daemon &"
 
 ------------------------------------------------------------------------
