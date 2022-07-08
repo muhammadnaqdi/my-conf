@@ -3,7 +3,7 @@
 [profiles]
   [[default]]
     background_color = "#282c34"
-    background_darkness = 0.85
+    background_darkness = 1
     background_type = transparent
     cursor_color = "#676c76"
     font = Source Code Pro 11
