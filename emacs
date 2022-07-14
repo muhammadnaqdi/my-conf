@@ -3,10 +3,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(global-display-line-numbers-mode t)
  '(package-selected-packages
-   '(multi-vterm vterm yasnippet-snippets flycheck-irony company-irony irony flycheck company geiser-mit centaur-tabs doom-themes use-package))
- '(tool-bar-mode nil))
+   '(yasnippet-snippets multi-vterm vterm-toggle flycheck-irony company-irony irony flycheck company geiser-mit centaur-tabs doom-themes use-package)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -32,7 +30,7 @@
 (setq compile-command "make")
 
 ;;(set-frame-parameter (selected-frame) 'alpha '(85 85))
-;;(add-to-list 'default-frame-alist '(alpha 85 85))
+;;(add-to-list 'default-frame-alist '(alpha 85 85)
 
 (use-package doom-themes
   :ensure t
